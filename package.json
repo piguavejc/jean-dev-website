@@ -24,7 +24,9 @@
     "eslint-plugin-astro": "^1.2.2",
     "eslint-plugin-jsx-a11y": "^6.9.0",
     "globals": "^15.8.0",
+    "prettier-plugin-astro": "^0.14.0",
     "prettier-plugin-tailwindcss": "^0.6.5",
+    "tailwind-merge": "^2.4.0",
     "typescript-eslint": "^7.15.0"
   }
 }
