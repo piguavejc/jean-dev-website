@@ -1,0 +1,13 @@
+---
+import { cn } from '@/lib/util'
+interface Props {
+  className?: string
+}
+const { className } = Astro.props
+---
+
+<main class={cn('w-full flex justify-center', className)}>
+  <section class="w-full max-w-[50rem] p-2">
+    <slot />
+  </section>
+</main>
